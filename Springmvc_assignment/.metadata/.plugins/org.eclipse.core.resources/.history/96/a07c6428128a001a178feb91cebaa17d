@@ -1,5 +1,0 @@
-package com.capgemini.springmvc.dto;
-
-public class EmployeePrimaryInfo {
-
-}

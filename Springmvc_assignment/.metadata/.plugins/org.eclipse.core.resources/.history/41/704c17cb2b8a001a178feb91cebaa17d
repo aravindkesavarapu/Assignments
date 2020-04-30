@@ -1,5 +1,0 @@
-package com.capgemini.springmvc.dao;
-
-public class EmployeeDAOHibernateImpl implements EmployeeDAO{
-
-}

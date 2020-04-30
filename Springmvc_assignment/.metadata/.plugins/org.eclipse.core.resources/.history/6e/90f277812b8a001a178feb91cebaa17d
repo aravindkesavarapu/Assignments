@@ -1,5 +1,0 @@
-package com.capgemini.springmvc.dao;
-
-public interface EmployeeDAO {
-
-}
