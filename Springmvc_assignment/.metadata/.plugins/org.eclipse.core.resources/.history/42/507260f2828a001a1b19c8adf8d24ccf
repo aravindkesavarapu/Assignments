@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Employee</title>
+</head>
+<body>
+	<div align="center">
+		<legend>Add Employee</legend>
+		<fieldset>
+			<form action="./added">
+				<table>
+
+					<tr>
+						<td><label>EmployeeId:</label></td>
+						<td><input type="text" id="empId" name="empId" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Employee Name:</label></td>
+						<td><input type="text" id="name" name="name" required><br>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label>Employee Age:</label></td>
+						<td><input type="text" id="age" name="age" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Employee Designation:</label></td>
+						<td><input type="text" id="designation" name="designation"
+							required><br></td>
+					</tr>
+					<tr>
+						<td><label>Employee Password:</label></td>
+						<td><input type="text" id="password" name="password" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td><label>Employee Salary:</label></td>
+						<td><input type="text" id="salary" name="salary" required><br>
+						</td>
+					</tr>
+					<tr>
+						<td><input type="submit" name="submit" value="submit">
+						</td>
+					</tr>
+
+				</table>
+			</form>
+		</fieldset>
+	</div>
+</body>
+</html>

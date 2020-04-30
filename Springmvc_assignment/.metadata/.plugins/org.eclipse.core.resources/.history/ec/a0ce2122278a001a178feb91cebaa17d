@@ -1,0 +1,9 @@
+package com.capgemini.springmvc.dto;
+
+import lombok.Data;
+
+@Data
+
+public class EmployeePrimaryInfo {
+
+}

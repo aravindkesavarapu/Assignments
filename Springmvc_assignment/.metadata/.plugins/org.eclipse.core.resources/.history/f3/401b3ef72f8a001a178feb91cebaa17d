@@ -1,0 +1,39 @@
+package com.capgemini.springmvc.service;
+
+import java.util.List;
+
+import com.capgemini.springmvc.beans.EmplooyeeInfoBean;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	@Override
+	public EmplooyeeInfoBean getEmployee(int empId) {
+
+		return null;
+	}
+
+	@Override
+	public boolean addEmployee(EmplooyeeInfoBean emplooyeeInfoBean) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean deleteEmployee(int empId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean updateEmployee(EmplooyeeInfoBean emplooyeeInfoBean) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<EmplooyeeInfoBean> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
