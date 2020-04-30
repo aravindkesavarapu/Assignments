@@ -1,0 +1,53 @@
+package com.capgemini.springmvc.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.springmvc.beans.EmplooyeeInfoBean;
+import com.capgemini.springmvc.dao.EmployeeDAO;
+import com.capgemini.springmvc.dao.EmployeeDAOHibernateImpl;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService {
+
+	private EmployeeDAO dao = new EmployeeDAOHibernateImpl();
+
+	@Override
+	public EmplooyeeInfoBean getEmployee(int empId) {
+		if (empId < 1) {
+			return null;
+		}
+		return dao.getEmployee(empId);
+	}
+
+	@Override
+	public boolean addEmployee(EmplooyeeInfoBean emplooyeeInfoBean) {
+		if (emplooyeeInfoBean != null) {
+			return dao.addEmployee(emplooyeeInfoBean);
+		} else {
+			return false;
+		}
+
+	}
+
+	@Override
+	public boolean deleteEmployee(int empId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean updateEmployee(EmplooyeeInfoBean emplooyeeInfoBean) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<EmplooyeeInfoBean> getAllEmployees() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

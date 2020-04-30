@@ -1,0 +1,9 @@
+package com.capgemini.springmvc.bean;
+
+import lombok.Data;
+
+@Data
+public class Em {
+
+	
+}

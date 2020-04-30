@@ -1,0 +1,20 @@
+package com.capgemini.springmvc.beans;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name ="employee_info")
+public class EmplooyeeInfoBean {
+
+	private int empId;
+	private String name;
+	private int age;
+	private String designation;
+	private String password;
+	private double salary;
+	
+}
