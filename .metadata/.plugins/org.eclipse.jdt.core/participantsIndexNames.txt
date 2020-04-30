@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+G:\Capgemini Java\angular crud opertions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3597755099.index
+\Springmvc_assignment\src\main\java
+G:\Capgemini Java\angular crud opertions\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3405046049.index
+\Springmvc_assignment\src\main\java
